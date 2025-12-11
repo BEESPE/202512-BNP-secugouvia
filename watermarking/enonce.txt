@@ -1,0 +1,22 @@
+1. Ouvrir le dossier notebooks.
+2. Etudier le code dans le premier notebook 1_preparation.ipynb et lancer l'entraînement de votre modèle standard de classification météo. Sauvegarder (sérialiser) le modèle ainsi créé.
+3. Observer le contenu du dossier src.watermarking. Observer les différentes classes abstraites définies dans le projet.
+
+### Content watermarking - watermarking.content.noise.saltpepper
+
+4. (a) Compléter le code de la fonction utilitaire \_generate_saltpepper_masks.py permettant de générer des masques saltpepper. L'idée de tels masques est de formaliser par l'intermédiaire de booléens la position des pixels blancs et noirs qui vont être appliqués sur (toutes) les images. Pour cette question, il est possible de commencer la question (b) de sorte à utiliser et débugger le code produit.
+   (b) Compléter le notebook 2_saltpepper_watermark_preparation.ipynb pour générer un masque sel et poivre.
+5. Compléter le code de \_saltpepper_noise_watermarker pour appliquer les masques saltpepper.
+6. Ouvrir le notebook 3_saltpepper_watermarking.ipynb et compléter le code pour tester le watermarking du modèle de classification météo. Sauvegarder (sérialiser) le modèle ainsi créé.
+
+### Output watermarking - watermarking.output
+
+7. Observer le module watermarking.output. Compléter le code de la partie mark de \_decimal_turner dont l'idée est de forcer une décimale du predict_proba à une valeur prédéterminée.
+8. Ouvrir le notebook 4_output_watermarking.ipynb. Créer simplement un MagicModel composé du modèle de base et du DecimalTurner. Sauvegarder (sérialiser) le modèle ainsi créé.
+
+### Tests à l'aveugle
+
+9. Compléter les codes des parties witness des watermarkers.
+10. Demander à votre voisin d'anonymiser les 3 modèles que vous avez sauvegardés.
+11. Ouvrir le dernier notebook 5_witnessing.ipynb et essayer de retrouver quel modèle est le modèle d'origine, celui watermarké par saltpepper et celui watermarké par DecimalTurner. Si possible, faire cela en utilisant les méthodes des objets développés.
+12. Question bonus si vous êtes en avance : essayer d'attaquer le plus simplement ces watermarkings (en utilisant votre connaissance de leur mode de fonctionnement).

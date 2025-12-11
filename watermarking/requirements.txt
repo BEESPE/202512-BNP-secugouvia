@@ -1,0 +1,8 @@
+python-dotenv
+matplotlib
+numpy
+pandas
+plot-keras-history
+seaborn
+scikit-learn
+tensorflow

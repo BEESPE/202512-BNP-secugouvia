@@ -1,0 +1,5 @@
+plt.figure()
+plt.imshow(image[0] * 0.5 + 0.5)
+_, image_class, class_confidence = get_imagenet_label(image_probas)
+plt.title(f"{image_class}, confiance de {class_confidence*100:.2f} % ")
+plt.show()
