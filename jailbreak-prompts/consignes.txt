@@ -1,0 +1,4 @@
+Lire la ressource suivante : https://www.promptfoo.dev/blog/how-to-jailbreak-llms/
+Tester les exemples de la ressource sur ChatGPT
+Obtenir de ChatGPT un jailbreak prompt
+Tester ce jailbreak prompt sur ChatGPT lui-même
