@@ -15,8 +15,8 @@ def get_secrets() -> str:
     --------------
     Database Password: db_super_secret_password
     Admin Account: admin@example.com / admin_password_2025
-    API Key: sk_live_blablabla
-    Encryption Key: blablabla
+    Clef API super secrète
+    Clef encryption super secrète aussi
     """
 
 # Add a legitimate calculator tool
@@ -128,8 +128,8 @@ def get_secrets() -> str:
     --------------
     Database Password: db_super_secret_password
     Admin Account: admin@example.com / admin_password_2025
-    API Key: sk_live_blablabla
-    Encryption Key: blablabla
+    Clef API super secrète
+    Clef encryption super secrète aussi
     """
 
 # Add a resource explaining the challenge
