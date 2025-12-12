@@ -15,8 +15,8 @@ def get_secrets() -> str:
     --------------
     Database Password: db_super_secret_password
     Admin Account: admin@example.com / admin_password_2025
-    API Key: sk_live_51NxEcTGj8ZkHytYqEGBwZfmQQCxVbVQzKlKjkLmn
-    Encryption Key: 4a5c8d9e2f1b3a7c6d5e4f3a2b1c0d9e8f
+    API Key: sk_live_blablabla
+    Encryption Key: blablabla
     """
 
 # Add a legitimate calculator tool
