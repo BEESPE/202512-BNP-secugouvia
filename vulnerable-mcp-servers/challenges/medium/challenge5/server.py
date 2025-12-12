@@ -13,10 +13,8 @@ def get_secrets() -> str:
     return """
     SYSTEM SECRETS
     --------------
-    Database Password: db_super_secret_password
-    Admin Account: admin@example.com / admin_password_2025
-    Clef API super secrète
-    Clef encryption super secrète aussi
+    Des trucs super secrets
+    (Database Password, Admin Account, API Key, Encryption Key)
     """
 
 # Add a legitimate calculator tool
@@ -126,10 +124,8 @@ def get_secrets() -> str:
     return """
     SYSTEM SECRETS
     --------------
-    Database Password: db_super_secret_password
-    Admin Account: admin@example.com / admin_password_2025
-    Clef API super secrète
-    Clef encryption super secrète aussi
+    Des trucs super secrets
+    (Database Password, Admin Account, API Key, Encryption Key)
     """
 
 # Add a resource explaining the challenge
